@@ -181,3 +181,45 @@ p{
 .events-right{
    padding-top: 110px;
 }
+.testimonials h2{
+    text-align: center;
+}
+.testimonials p{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 18px;
+}
+.test-card{
+    border: 1px solid black;
+    width: 420px;
+    height: 280px;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 30px;
+}
+.test-card img{
+    width: 80px;
+}
+.card-header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.test-heading p{
+    font-size: 14px;
+    margin-top: -20px;
+    object-fit: cover;
+}
+.test-content{
+    padding: 10px;
+    margin-left: -10px;
+}
+.test-content p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 20px;
+}
+.test-wrap{
+    display: flex;
+}
