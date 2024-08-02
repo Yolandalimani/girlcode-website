@@ -269,3 +269,46 @@ p{
     color: white;
 
 }
+.signUp-card .button a:hover{
+    color: #E94154;
+}
+
+.partners-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.patner-left{
+    width: 600px;
+    align-content: center;
+}
+.patner-left p{
+    font-size: 18px;
+}
+
+.patner-left .button{
+    background-color: #E94154;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.patner-left .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.patner-left .button a:hover{
+    color: #E94154;
+}
+/*table{
+    padding: 20px;
+}*/
+td{
+    padding: 5px;
+    padding-right: 20px;
+}
+table img{
+    width: 200px;
+}
