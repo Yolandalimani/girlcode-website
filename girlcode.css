@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: auto;
 }
 .container{
     padding: 30px;
@@ -312,3 +313,59 @@ td{
 table img{
     width: 200px;
 }
+footer{
+    margin: 50px -30px;
+    background-color: #E94154;
+    height: 300px;
+    position: absolute;
+    padding-right: 299px;
+}
+
+.footer-wrap{
+    padding-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-head{
+    margin-left: 10px;
+    width: 415px;
+}
+.footer-head img{
+    width: 150px;
+}
+
+.footer-head p{
+    font-size: 18px;
+    color: white;
+}
+ a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: -10px;
+}
+.footer-par h4{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+li{
+    list-style: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.socials i{
+    color: #ffffff;
+    padding-top: 30px;
+}
+/*.socials .button{
+    height: 40px;
+    background-color: white;
+}*/
