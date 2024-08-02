@@ -129,3 +129,55 @@ p{
 .card .button a:hover{
     color: #E94154;
 }
+
+.events{
+    display: flex;
+    background-color: #E94154;
+    margin: 50px -30px;
+    height: 320px;
+    gap: 40px;
+    padding: 30px;
+    color: white;
+}
+
+.events-left{
+    width: 636px;
+}
+.events-left h2{
+    padding-top:48px;
+    font-size: 35px;
+}
+
+.events-left h4{
+    background: white;
+    color: #E94154;
+}
+.events-right h3{
+    font-size: 25px;
+}
+.events-left p{
+    font-size: 18px;
+}
+
+.events-left .button{
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+.events-left .button a{
+    text-decoration: none;
+    color: #E94154;
+}
+
+.events-left .button a:hover{
+    color: white;
+}
+.events-right p{
+    font-size: 18px;
+    margin-top: -10px;
+}
+.events-right{
+   padding-top: 110px;
+}
