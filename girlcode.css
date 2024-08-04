@@ -34,7 +34,6 @@ h1{
     font-size: 50px;
 }
 
-
 p{
     font-size: 22px;
 }
@@ -381,4 +380,20 @@ li{
     margin-left: 0px;
     color: #E94154;
     font-size: 18px;
+}
+
+/* Hackathon styling */
+
+.hackathon-img{
+    width: 1519.5px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+.hackathon-par{
+    text-align: center;
+}
+.hackathon-par p{
+    font-size: 20px;
 }
