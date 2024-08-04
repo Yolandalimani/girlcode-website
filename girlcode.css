@@ -435,3 +435,48 @@ li{
     font-size: 14px;
     margin-top: -1px;
 }
+.donate{
+    background-image: url("assets/girlcode_students-BNN1dAjh.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -30px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.donate-left{
+    width: 1000px;
+    margin-left: 10px;
+    padding: 50px;
+}
+
+.donate-left h3{
+    font-size: 20px;
+    color: white;
+}
+
+.donate-left p{
+    font-size: 18px;
+    color: white;
+}
+.donate-button{
+    background-color: white;
+    padding: 10px 80px;
+    margin: auto;
+    border-radius: 4px;
+    
+}
+
+.donate-button a{
+    color: #E94154;
+}
+.donate-button a:hover{
+    color: white;
+}
+.donate-button:hover{
+    background-color: #E94154;
+    border: 1px solid white;
+    color: white;
+}

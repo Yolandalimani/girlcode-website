@@ -364,6 +364,18 @@
                     </div>
                 </footer>
             </div>
+            <script>
+                const slideBox = document.querySelector('.inner-slide-box');
+                const slides = slideBox.children;
+                const totalSlides = slides.length;
+
+                function rotateSlides() {
+                    const firstSlide = slides[0];
+                    slideBox.appendChild(firstSlide);
+                }
+
+                setInterval(rotateSlides, 3000);
+            </script>
          <script src="https://kit.fontawesome.com/575f74a980.js" crossorigin="anonymous"></script>
     </body>
 </html>
