@@ -397,3 +397,15 @@ li{
 .hackathon-par p{
     font-size: 20px;
 }
+
+.hackathon-par .button{
+    width: 100px;
+    background-color: #E94154;
+    padding: 10px;
+    border-radius: 4px;
+    margin: auto;
+
+}
+.hackathon-par .button a{
+    text-align: center;
+}
