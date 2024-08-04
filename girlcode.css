@@ -409,3 +409,29 @@ li{
 .hackathon-par .button a{
     text-align: center;
 }
+
+.winner-background{
+    background-color: #ececec;
+    margin: 50px -30px;
+}
+
+.winners{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.hackathon-winners h3{
+    text-align: center;
+}
+.hackathon-winners img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+}
+.hackathon-winners p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -1px;
+}
