@@ -365,7 +365,20 @@ li{
     color: #ffffff;
     padding-top: 30px;
 }
-/*.socials .button{
-    height: 40px;
+.social-wrap .button{
+    height: 20px;
     background-color: white;
-}*/
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+}
+.social-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.social-wrap a{
+    margin-left: 0px;
+    color: #E94154;
+    font-size: 18px;
+}
